@@ -1,0 +1,56 @@
+.strongpass {
+    display: flex;
+    margin-top: 3vh;
+}
+
+.otherbtn {
+    background: #888888;
+    width: 159px;
+    padding: 6px;
+    border-radius: 38px;
+    margin-left: 16px;
+    color: greenyellow;
+    border: none;
+    font-weight: 300;
+}
+
+.badge {
+    border-radius: 50%;
+    background-color: greenyellow;
+    height: 21px;
+    width: 23px;
+}
+
+.already {
+    display: block;
+    margin: auto;
+    max-width: 75%;
+}
+
+.firstSide img {
+    margin-left: -8vh;
+}
+
+@media only screen and (max-width:1080px) {
+    #container2ndpage {
+        margin-top: 5vh !important;
+    }
+}
+
+@media only screen and (max-width:930px) {
+    .otherbtn {
+        max-width: 159px;
+    }
+    .firstSide img {
+        margin-left: 0vh;
+    }
+    #passwordStrength {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:410px) {
+    .alreadytext {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,321 @@
+.container-fluid .userimge {
+    max-width: 145px;
+    border-radius: 50%;
+    height: 145px;
+    margin-top: 18px;
+    margin-left: 17px;
+}
+
+.firstBox {
+    flex-direction: column;
+}
+
+.firstBox h2 {
+    font-size: 17px;
+    margin-top: -11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27px;
+}
+
+.award-image img {
+    width: 25px;
+    border-radius: 50%;
+    height: 24px;
+}
+
+.award-image {
+    display: flex;
+    margin-left: -25px;
+}
+
+.award-image li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    color: whitesmoke;
+    display: block;
+    font-weight: 200;
+}
+
+.sidebar a:hover {
+    color: #000f42;
+    background-color: whitesmoke;
+    border-radius: 38px;
+}
+
+.sidebar ul li {
+    list-style: none;
+    cursor: pointer;
+    margin: 4px 0px;
+}
+
+.secondsidebar {
+    margin-left: -20px;
+    font-weight: 200;
+    margin-top: 3vh;
+}
+
+.right-boxs1 {
+    flex: 1 0 0%;
+    border: 2px solid gray;
+    padding: 13px;
+    margin: 0px 14px;
+}
+
+.secondrow {
+    margin-top: 4vh;
+    padding: 12px;
+}
+
+.secondrow i {
+    font-size: 9vh;
+    padding: 20px;
+    color: gray;
+}
+
+.secondrow .right-boxs1 {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.secondrow h4 {
+    font-weight: 400;
+}
+
+.container-fluid {
+    background-color: #ddd;
+}
+
+.first {
+    background: teal;
+    color: whitesmoke;
+}
+
+table img {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+}
+
+table p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-top: -28px;
+}
+
+.third {
+    background-color: whitesmoke;
+}
+
+tr {
+    border-top: 0.1px solid gray;
+    border-bottom: 0.1px solid gray;
+}
+
+table h6 {
+    margin-top: 2vh;
+}
+
+.third h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.third-third h6 {
+    margin-top: 6vh;
+}
+
+.third-third img {
+    border-radius: 1px;
+}
+
+.menubar svg {
+    display: none;
+}
+
+#aside-box {
+    position: fixed;
+}
+
+.second-boxwidth {
+    margin-left: 16%;
+}
+
+@media only screen and (max-width:1195px) {
+    .secondrow .right-boxs1 {
+        margin-top: 3vh;
+    }
+    .thirdrow {
+        display: flex;
+        flex-direction: column;
+        max-width: 63%;
+        margin: auto;
+    }
+    .third {
+        margin: 14px 0px;
+    }
+    .aside-box {
+        height: 100%;
+        position: fixed;
+    }
+    .sidebar a {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .container-fluid .userimge {
+        max-width: 86px;
+        height: 86px;
+        margin-top: 6px;
+        margin-left: 52px;
+    }
+    .firstBox h2 {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-left: 47px;
+        margin-bottom: -4px;
+    }
+    .sidebar {
+        margin-left: 25px;
+    }
+    .sidebar h2 {
+        font-size: 20px;
+    }
+    .sidebar ul li {
+        margin: 7px 0px;
+    }
+    .second-boxwidth {
+        flex: 1 0 0%;
+        margin-left: 45vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .sidebar {
+        margin-left: -2px;
+    }
+    .secondsidebar ul {
+        margin-left: -9px;
+    }
+    .award-image li {
+        margin: 0px 5px;
+    }
+    .award-image {
+        margin-left: -9px;
+    }
+    .second-boxwidth {
+        flex: 1 0 0%;
+        margin-left: 35vh;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .thirdrow {
+        max-width: 100%;
+    }
+    .second-boxwidth {
+        margin-left: 27vh;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+    .aside-box {
+        display: none;
+    }
+    .menubar {
+        position: absolute;
+    }
+    .second-boxwidth {
+        margin-left: 3vh;
+    }
+    .menubar {
+        margin-left: 50%;
+        margin-top: 4vh;
+        margin-bottom: 0vh;
+        position: inherit;
+    }
+    body {
+        background-color: #ddd;
+    }
+    .secondrow h4 {
+        font-size: 18px;
+    }
+    .secondrow i {
+        font-size: 6vh;
+        padding: 20px;
+    }
+    .first {
+        font-size: 14px;
+    }
+    .secondrow {
+        padding: 0px;
+    }
+    .aside-box {
+        height: 100%;
+        position: fixed;
+        width: 100%;
+    }
+    .sidebar {
+        padding-top: 1px;
+    }
+    .sidebar h2 {
+        font-size: 20px;
+        margin-left: -4vh;
+    }
+    .container-fluid .userimge {
+        margin-top: 13px;
+        margin-left: 0px;
+    }
+    .firstBox h2 {
+        margin-left: 0px;
+    }
+    .sidebar ul li {
+        margin: 7px 0px;
+        margin-left: -3vh;
+    }
+    .fa-close {
+        font-size: 7vh;
+        position: absolute;
+        color: white;
+        margin-left: 90%;
+        margin-top: 5vh;
+    }
+    .menubar svg {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .second-boxwidth {
+        margin-left: 0vh;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+.fa-close {
+    display: none;
+}
+
+.menubar svg {
+    margin-left: -3vh;
+}

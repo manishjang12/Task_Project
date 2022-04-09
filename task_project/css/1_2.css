@@ -1,0 +1,177 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.box {
+    width: 50%;
+}
+
+.secondBox {
+    border: 2px solid gainsboro;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    padding: 9%;
+}
+
+.secondBox h2 {
+    font-size: 43px;
+    font-weight: 400;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    display: block;
+    background-color: transparent;
+}
+
+.firstBox input {
+    border: 1px solid;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.homeForm i {
+    position: absolute;
+    font-size: 20px;
+    margin-left: -5%;
+    display: block;
+}
+
+.firstBox {
+    padding: 12vh;
+}
+
+form {
+    padding: 26px;
+}
+
+form span {
+    cursor: pointer;
+}
+
+form input {
+    max-width: 63%;
+}
+
+.forgot {
+    margin-left: 39%;
+    text-decoration: none;
+    margin-top: 2vh;
+}
+
+form a {
+    text-decoration: none;
+    color: #000f42;
+    font-weight: 600;
+}
+
+.welcomeHeading {
+    margin-left: 4%;
+}
+
+form button {
+    width: 63%;
+    padding: 12px;
+    margin-top: 6%;
+    background: #000f42;
+}
+
+.form-label {
+    margin-bottom: -1%;
+    margin-top: 7%;
+    font-weight: 400;
+    color: lightslategrey;
+}
+
+@media only screen and (max-width: 1265px) {
+    .firstBox {
+        padding: 1vh;
+    }
+    img {
+        width: 65vh;
+    }
+}
+
+@media only screen and (max-width: 1085px) {
+    .forgot {
+        margin-left: 32%;
+    }
+    .secondBox {
+        padding: 4%;
+    }
+}
+
+@media only screen and (max-width: 928px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    .secondBox {
+        border: none;
+    }
+    img {
+        width: 78vh;
+    }
+    .box {
+        width: 77%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    form input {
+        max-width: 100%;
+    }
+    form button {
+        width: 100% !important;
+    }
+    form {
+        padding: 25px;
+        width: 66vh;
+    }
+}
+
+@media only screen and (max-width: 755px) {
+    .secondBox h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .container {
+        margin-top: 6vh;
+    }
+}
+
+@media only screen and (max-width: 516px) {
+    .secondBox h2 {
+        font-size: 32px;
+        font-weight: 600;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .secondBox h2 {
+        font-size: 25px;
+    }
+    img {
+        width: 56vh;
+    }
+    form {
+        padding: 25px;
+        width: 54vh;
+    }
+}

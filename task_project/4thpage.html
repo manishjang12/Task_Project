@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font awesome for icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- for this page  -->
+    <link rel="stylesheet" href="./css/4th.css">
+    <!-- this is for page btn  -->
+    <link rel="stylesheet" href="./css/pagebtn.css">
+</head>
+
+<body style="background-color: #ddd;">
+    <div class="menubar" id="menubar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-menu-button-wide-fill" viewBox="0 0 16 16">
+            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0h-13zm1 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm9.927.427A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0l-.396-.396zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+    </div>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-0 bg-dark aside-box" id="aside-box">
+                <i class="fa fa-close" id="closeBtn"></i>
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100" style="    background: #000f42;">
+                    <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none firstBox">
+                        <img src="./images/avatar.png" alt="" srcset="" class="userimge">
+                        <h2>Manish Kumar Jangid</h2>
+                    </a>
+                    <ul class="award-image">
+                        <li><img src="./images/award1.png" alt="" srcset=""></li>
+                        <li><img src="./images/award2.png" alt="" srcset=""></li>
+                        <li><img src="./images/award3.png" alt="" srcset=""></li>
+                        <li><img src="./images/award4.png" alt="" srcset=""></li>
+                    </ul>
+                    <div class="sidebar">
+                        <a href="#home"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-grid-fill" viewBox="0 0 16 16" style="margin-top: -4px;">
+                            <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
+                          </svg> Dashboard</a>
+                        <a href="#services"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16" style="margin-top: -4px;">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                          </svg>Profile</a>
+                        <a href="#clients"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16" style="margin-top: -4px;">
+                            <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                          </svg> Event</a>
+                        <a href="#contact"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-file-code" viewBox="0 0 16 16">
+                            <path d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/>
+                            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+                          </svg> Practice</a>
+                    </div>
+                    <div class="sidebar secondsidebar">
+                        <ul>
+                            <h2>Categories</h2>
+                            <li>Web</li>
+                            <li>Crypto</li>
+                            <li>Forensics</li>
+                            <li>Network</li>
+                            <li>Firmware</li>
+                            <li>IoT</li>
+                            <li>Log Analysis</li>
+                        </ul>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div class="col second-boxwidth">
+                <div class="container secondcontainerfirst">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="eventheading">Events</h1>
+                            <h6>A Sub Heading</h6>
+                        </div>
+                        <div class="col dates" style="margin-top: 5vh;">
+                            <h4>2019</h4>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6> Jen
+                                        </h6>
+                                    </div>
+                                    <div class="col">
+                                        <h6>Feb</h6>
+                                    </div>
+                                    <div class="col">
+                                        <h6> March
+                                        </h6>
+                                    </div>
+                                    <div class="col">
+                                        <h6> April</h6>
+                                    </div>
+
+                                    <div class="col">
+                                        <h6> May
+                                        </h6>
+                                    </div>
+                                    <div class="col">
+                                        <h2 style="margin-top: -15px;"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                                          </svg></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container filter" id="filterevents">
+                        <div class="row filterDiv-con">
+                            <div class="col">
+                                <button class="btn" data-filter="live">Live <span class="badge badge-secondary">6</span></button>
+                            </div>
+                            <div class="col">
+                                <button class="btn" data-filter="upcoming">UPCOMING <span class="badge badge-secondary">6</span></button>
+                            </div>
+                            <div class="col">
+                                <button class="btn" data-filter="previous">Previous <span class="badge badge-secondary">6</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container secondcontainerBox">
+                        <div class="row">
+                            <div class="container-fluid course-container filterDiv live">
+                                <div class="img"> <img src="./images/sense-2326348_640.jpg" alt=""></div>
+                                <h3>ROOST Cloud Native Hack</h3>
+                                <p>Ends in</p>
+                                <h4>11 : 12 : 00</h4>
+                                <p class="timeindays">Days : Hour : Minute</p>
+                                <button type="button" class="btn btn-primary">START NOW</button>
+                            </div>
+                            <div class="container-fluid course-container filterDiv live">
+                                <div class="img"> <img src="./images/sense-2326348_640.jpg" alt=""></div>
+                                <h3>ROOST Cloud Native Hack</h3>
+                                <p>Ends in</p>
+                                <h4>11 : 12 : 00</h4>
+                                <p class="timeindays">Days : Hour : Minute</p>
+                                <button type="button" class="btn btn-primary">START NOW</button>
+                            </div>
+                            <div class="container-fluid course-container filterDiv live">
+                                <div class="img"> <img src="./images/sense-2326348_640.jpg" alt=""></div>
+                                <h3>ROOST Cloud Native Hack</h3>
+                                <p>Ends in</p>
+                                <h4>11 : 12 : 00</h4>
+                                <p class="timeindays">Days : Hour : Minute</p>
+                                <button type="button" class="btn btn-primary">START NOW</button>
+                            </div>
+                            <div class="container-fluid course-container filterDiv upcoming">
+                                <div class="img"> <img src="./images/sense-2326348_640.jpg" alt=""></div>
+                                <h3>ROOST Cloud Native Hack</h3>
+                                <p>Ends in</p>
+                                <h4>11 : 12 : 00</h4>
+                                <p class="timeindays">Days : Hour : Minute</p>
+                                <button type="button" class="btn btn-primary">START NOW</button>
+                            </div>
+                            <div class="container-fluid course-container filterDiv upcoming">
+                                <div class="img"> <img src="./images/sense-2326348_640.jpg" alt=""></div>
+                                <h3>ROOST Cloud Native Hack</h3>
+                                <p>Ends in</p>
+                                <h4>11 : 12 : 00</h4>
+                                <p class="timeindays">Days : Hour : Minute</p>
+                                <button type="button" class="btn btn-primary">START NOW</button>
+                            </div>
+                            <div class="container-fluid course-container filterDiv previous">
+                                <div class="img"> <img src="./images/sense-2326348_640.jpg" alt=""></div>
+                                <h3>ROOST Cloud Native Hack</h3>
+                                <p>Ends in</p>
+                                <h4>11 : 12 : 00</h4>
+                                <p class="timeindays">Days : Hour : Minute</p>
+                                <button type="button" class="btn btn-primary">START NOW</button>
+                            </div>
+                            <div class="container-fluid course-container filterDiv previous">
+                                <div class="img"> <img src="./images/sense-2326348_640.jpg" alt=""></div>
+                                <h3>ROOST Cloud Native Hack</h3>
+                                <p>Ends in</p>
+                                <h4>11 : 12 : 00</h4>
+                                <p class="timeindays">Days : Hour : Minute</p>
+                                <button type="button" class="btn btn-primary">START NOW</button>
+                            </div>
+                            <div class="container-fluid course-container filterDiv previous">
+                                <div class="img"> <img src="./images/sense-2326348_640.jpg" alt=""></div>
+                                <h3>ROOST Cloud Native Hack</h3>
+                                <p>Ends in</p>
+                                <h4>11 : 12 : 00</h4>
+                                <p class="timeindays">Days : Hour : Minute</p>
+                                <button type="button" class="btn btn-primary">START NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto col-md-3 col-xl-2 px-0 aside-box promation" style="background-color: #ddd; border:2px solid gray; border-top:none">
+                <p style="margin-top: 76%;
+                justify-content: center;
+                align-items: center;
+                display: flex;">this is use for promation</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-page-btn">
+        <button type="button" class="btn btn-primary"><a href="./first_page.html">First Page</a></button>
+        <button type="button" class="btn btn-secondary"><a href="./second_page.html">Second page</a></button>
+        <button type="button" class="btn btn-success"><a href="./third.html">Third page</a></button>
+        <button type="button" class="btn btn-danger"><a href="./4thpage.html">Fourth page</a></button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- jquery for filter  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- js for this page  -->
+    <script src="./javascript/4th.js"></script>
+
+</body>
+
+</html>

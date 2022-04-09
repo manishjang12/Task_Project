@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font awesome for icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- page css  -->
+    <link rel="stylesheet" href="./css/1_2.css">
+    <link rel="stylesheet" href="./css/2nd.css">
+
+    <!-- for password meter  -->
+    <link rel="stylesheet" href="./css/passwordmeter.css">
+    <!-- this is for page btn  -->
+    <link rel="stylesheet" href="./css/pagebtn.css">
+</head>
+
+<body>
+    <div class="container" id="container2ndpage">
+        <div class="firstBox box">
+            <h1 class="welcomeHeading">Get Started</h1>
+            <form class="homeForm"> <label for="username" class="form-label">USER NAME</label>
+                <button type="button" class="otherbtn"><span class="badge">&#10003;</span> &nbsp;  Not Registered</button>
+                <div class="input-group mt-2">
+                    <input type="text" class="form-control" id="username">
+                    <span class="input-group-icon" id="faUser"> <i class="fa fa-user" ></i></span>
+                </div>
+
+                <label for="email" class="form-label">EMAIL ADDRESS</label>
+                <div class="input-group mt-2">
+                    <input type="email" class="form-control" id="email">
+                    <span class="input-group-icon" id="faEmail"> <i class="fa fa-envelope" ></i></span>
+                </div>
+                <label for="password" class="form-label">PASSWORD</label>
+                <div class="input-group mt-2">
+                    <input type="password" class="form-control" id="pass" onkeyup="passwordStrength(this.value)">
+                    <span class="input-group-icon"> <i class="fa fa-eye" id="faPass"></i></span>
+                </div>
+                <div class="strongpass">
+
+                    <div id="passwordDescription">Password not entered</div>
+                    <div id="passwordStrength" class="strength0"></div>
+                </div>
+                <button type="submit" class="btn btn-primary" style="  width: 63%;
+                padding: 12px;
+                margin-top: 6%;
+                background: #000f42;">Create Account</button>
+            </form>
+            <div class="already">
+                <h6 class="alreadytext">Already a member? <a href=""> Sign in</a></h6>
+            </div>
+        </div>
+        <div class="secondBox box">
+            <div class="firstSide">
+                <h2>Take your Challenge Today</h2>
+                <img src="./images/2ndsideimage.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-page-btn">
+        <button type="button" class="btn btn-primary"><a href="./first_page.html">First Page</a></button>
+        <button type="button" class="btn btn-secondary"><a href="./second_page.html">Second page</a></button>
+        <button type="button" class="btn btn-success"><a href="./third.html">Third page</a></button>
+        <button type="button" class="btn btn-danger"><a href="./4thpage.html">Fourth page</a></button>
+    </div>
+
+    <!-- bootstrap Javascript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- edit javascript  -->
+    <script src="./javascript/2nd.js"></script>
+
+    <!-- for strong password meter  -->
+    <script src="./javascript/strong_pass.js"></script>
+</body>
+
+</html>

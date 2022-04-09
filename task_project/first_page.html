@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font awesome for icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- page css  -->
+    <link rel="stylesheet" href="./css/1_2.css">
+    <!-- this is for page btn  -->
+    <link rel="stylesheet" href="./css/pagebtn.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="firstBox box">
+            <h1 class="welcomeHeading">Welcome back!</h1>
+            <form class="homeForm"> <label for="username" class="form-label">USER NAME</label>
+                <div class="input-group mt-2">
+                    <input type="text" class="form-control" id="username">
+                    <span class="input-group-icon" id="faUser"> <i class="fa fa-user" ></i></span>
+                </div>
+                <label for="password" class="form-label">PASSWORD</label>
+                <div class="input-group mt-2">
+                    <input type="password" class="form-control" id="pass">
+                    <span class="input-group-icon"> <i class="fa fa-eye" id="faPass"></i></span>
+                </div>
+                <div class="input-group forgot">
+                    <a href=""> Forgot Password ?</a>
+                </div>
+                <button type="submit" class="btn btn-primary" style="  width: 63%;
+                padding: 12px;
+                margin-top: 6%;
+                background: #000f42;">Submit</button>
+            </form>
+        </div>
+        <div class="secondBox box">
+            <div class="firstSide">
+                <h2>Take your Challenge Today</h2>
+                <img src="./images/sideimg.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-page-btn">
+        <button type="button" class="btn btn-primary"><a href="./first_page.html">First Page</a></button>
+        <button type="button" class="btn btn-secondary"><a href="./second_page.html">Second page</a></button>
+        <button type="button" class="btn btn-success"><a href="./third.html">Third page</a></button>
+        <button type="button" class="btn btn-danger"><a href="./4thpage.html">Fourth page</a></button>
+    </div>
+
+    <!-- bootstrap Javascript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- edit javascript  -->
+    <script src="./javascript/1.js"></script>
+</body>
+
+</html>

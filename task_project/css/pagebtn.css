@@ -1,0 +1,39 @@
+.container-page-btn {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    color: white;
+}
+
+.container-page-btn a {
+    padding: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.container-page-btn button {
+    margin: 16px;
+}
+
+@media only screen and (max-width:710px) {
+    .container-page-btn a {
+        padding: 0px;
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .container-page-btn button {
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 41px) {
+    .container-page-btn button {
+        margin: 2px;
+    }
+}
